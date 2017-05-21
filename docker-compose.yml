@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  iatreiomvc:
+    image: iatreiomvc
+    build:
+      context: .\IatreioMVC
+      dockerfile: Dockerfile
